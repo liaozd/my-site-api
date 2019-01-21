@@ -2,7 +2,7 @@ bin/
 include/
 lib/
 pip-selfcheck.json
-
+.idea
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -68,3 +68,7 @@ target/
 .ipynb_checkpoints
 
 *.sqlite3
+
+# For dev temp
+migrations
+src/mysite/local_settings.py
