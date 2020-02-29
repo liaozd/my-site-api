@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.doubanio.com/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+django-environ = "*"
+coreapi = "*"
+drf-nested-routers = "*"
+PyMySQL = "*"
+
+[dev-packages]
+isort = "*"
+coreapi-cli = "*"
+
+[requires]
+python_version = "3.7"

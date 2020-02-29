@@ -1,3 +1,0 @@
--r base.txt
-
-isort==4.3.4
